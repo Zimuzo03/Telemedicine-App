@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- Link to Font-awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <!-- Link to jquery for javaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Link to External CSS file -->
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- Login Form -->
+    <div class="login-container">
+        <form id="loginForm">
+            <h2>Login</h2>
+
+            <!-- Email Address Field -->
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+
+            <!-- Password Field -->
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required minlength="8">
+                <span class="show-hide" id="togglePassword">Show</span>
+                <span class="error-message" id="passwordError"></span>
+            </div>
+            <div class="acct">
+                <h3 class="account">Don't have an account? <a href="register.html">Register Here.</a></h3>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="input-group">
+                <button type="submit" id="submitBtn">Login</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="login.js"></script>  <!-- Link to External JS File -->
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Telecare</title>
+        <!-- Link to External CSS file -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Link to jquery for javaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- Link to Font-awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    </head>
+
+    <!-- Body -->
+
+    <body>
+        <section id="Hero">
+            <!-- Nav Section -->
+            <nav class="nav_bar">
+                <input type="checkbox" class="menu-button" id="menu-button">
+                <label for="menu-button" class="menu-icon">
+                    <span class="nav_icon"></span>
+                </label>
+                <!-- Logo -->
+                <a href="#" class="logo"><span>Tele</span>Care</a>
+                <!-- Menu Section -->
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#blog">Blogs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <!-- Book an appointment -->
+                 <a href="login.html" class="app_btn">Appointment</a>
+            </nav>
+        </section>
+
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="mini">
+                <div class="content">
+                    
+                    <!-- <h2>Connect with Doctors at the comfort of your home </h2> -->
+                    <p>"Skip the Waiting Room, Get the Care You Need- <br>
+                        Right Where You Are."</p>
+                    <div class="mini_btns">
+                        <a href="register.html" class="register">Register</a>
+                        <a href="login.html" class="login">Login</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+
+        <section class="about" id="about">
+            <div class="about_container">
+                <div class="row">
+                    <div class="about_col_1">
+                        <img src="images (8).jpeg" alt="">
+                    </div>
+                    <div class="about_col_2">
+                        <h1 class="about_title">About Us</h1>
+                        <p>TeleCare is a digital healthcare platform
+                            that provides on-demand 24/7 healthcare services 
+                            to its clients. We are dedicated to providing secure, personalized, 
+                            and efficient telemedicine solutions that prioritize patient 
+                            care and convenience. From video consultations to prescription 
+                            management, our platform ensures you receive expert advice, 
+                            all from the comfort of your home.</p>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- Services Section -->
+          <section class="services" id="services">
+            <h1 class="heading">Our Services</h1>
+            <div class="service_container">
+                <div class="box">
+                    <i class="fa fa-video-camera"></i>
+                    <h3>Teleconsultation</h3>
+                    <p>Video call or chat with a doctor from your  <br>
+                        phone, tablet, or computer.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-pills"></i>
+                    <h3>Online Pharmacy</h3>
+                    <p>Get timely access to medicines at your doorstep.</p>
+                </div>
+                <div class="box">
+                    <i class="fa fa-flask"></i>
+                    <h3>Diagnostics</h3>
+                    <p>Access to quality and relaible laboratory tests</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-ambulance"></i>
+                    <h3>Ambulance</h3>
+                    <p>Access to ambulance in emergence situations</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-user-doctor"></i>
+                    <h3>Specialists</h3>
+                    <p>Connect with one of the best Specialists <br> 
+                        at the comfort of your home</p>
+                </div>
+                <div class="box">
+                    <i class="fa-regular fa-hospital"></i>
+                    <h3>Hospitals</h3>
+                    <p>Search for hospitals or clinics in your location</p>
+                </div>
+            </div>
+          </section>
+
+          <!-- Doctors Section -->
+          
+          <section class="doctors" id="doctors">
+            <h1 class="highlight">Our <span>Doctors</span></h1>
+            <div class="doc_box_container">
+                <div class="box">
+                    <img src="Doctor_1.jpg" alt="">
+                    <h3>Okafor Daniel</h3>
+                    <span>Cardiologist</span>
+                </div>
+                <div class="box">
+                    <img src="Doctor_2.jpg" alt="">
+                    <h3>Barry Sam</h3>
+                    <span>Neurologist</span>
+                </div>
+                <div class="box">
+                    <img src="Doctor_3.jpg" alt="">
+                    <h3>Danny Bishop</h3>
+                    <span>Psychologist</span>
+                </div>
+                <div class="box">
+                    <img src="Doctor_4.jpg" alt="">
+                    <h3>John Stones</h3>
+                    <span>Dentist</span>
+                </div>
+                <div class="box">
+                    <img src="Doctor_6.jpg" alt="">
+                    <h3>Jao Silver</h3>
+                    <span>ENT Specialists</span>
+                </div>
+                <div class="box">
+                    <img src="DOctor_7.jpg" alt="">
+                    <h3> Dominique Janssen</h3>
+                    <span>Ophthamologist</span>
+                </div>
+
+            </div>
+          </section>
+
+          <!-- Blog Section -->
+
+          <section class="blog" id="blog">
+            <h1 class="light">Blogs</h1>
+            <div class="blog_box_container">
+                <div class="box">
+                    <img src="https://guardian.ng/wp-content/uploads/2017/10/breast-cancer.jpg" alt="">
+                    <h3>Breast Cancer</h3>
+                    <p>The rise in breast cancer in Africa</p>
+                    <a href="https://www.who.int/news-room/fact-sheets/detail/breast-cancer" class="btn">Read more <span class="fa fa-chevron-right"></span></a>
+                </div>
+                <div class="box">
+                    <img src="https://www.shutterstock.com/image-photo/african-young-mother-breastfeeding-her-600nw-1579140745.jpg" alt="">
+                    <h3>Breast Milk</h3>
+                    <p>Importance of breast milk</p>
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7231147/" class="btn">Read more <span class="fa fa-chevron-right"></span></a>
+                </div>
+                <div class="box">
+                    <img src="data:image/jpeg;base64,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" alt="">
+                    <h3>Malaria</h3>
+                    <p>Symptoms, Prevention and Treatment of Malaria</p>
+                    <a href="https://www.who.int/news-room/fact-sheets/detail/malaria" class="btn">Read more <span class="fa fa-chevron-right"></span></a>
+                </div>
+            </div>
+          </section>
+
+          <!-- Contact Section -->
+
+          <section class="contact" id="contact">
+            <div class="contact_container">
+                <div class="contact_row">
+                    <div class="contact_left">
+                        <h1 class="contact_title">Contact Us</h1>
+                        <p><i class="fa fa-phone"></i>081-0000-1043</p>
+                        <p><i class="fa fa-envelope"></i>marizuzimuzo@gmail.com</p>
+                        <p><i class="fa fa-map-marker"></i>Kaffi Street, Off Awolwo Way, Ikoyi, Lagos State, Nigeria</p>
+                        <div class="social_icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact_right">
+                        <form action="#">
+                            <input type="text" name="name" placeholder="Enter Your Name" required>
+                            <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                            <textarea name="message" rows="5" placeholder="Type Message"></textarea>
+                            <button type="submit" class="contact_btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Copyrights -->
+
+                <div class="copyright">
+                    <p><i class="fa-regular fa-copyright"></i> Copyright TeleCare. All Rights Reserved.</p>
+                </div>
+            </div>
+
+           </section>
+
+    </body>
+</html>
